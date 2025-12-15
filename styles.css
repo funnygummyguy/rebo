@@ -1,0 +1,54 @@
+body {
+margin: 0;
+overflow: hidden;
+font-family: Arial, sans-serif;
+background: #111;
+}
+
+
+#topbar {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 40px;
+background: #202020;
+color: white;
+display: flex;
+align-items: center;
+padding: 0 10px;
+z-index: 10;
+}
+
+
+#topbar button {
+margin-right: 10px;
+}
+
+
+#toolbar {
+position: fixed;
+left: 10px;
+top: 60px;
+background: rgba(0,0,0,0.6);
+padding: 10px;
+border-radius: 5px;
+color: white;
+}
+
+
+#info {
+position: fixed;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+color: white;
+background: rgba(0,0,0,0.6);
+padding: 6px 12px;
+border-radius: 6px;
+}
+
+
+button {
+cursor: pointer;
+}
